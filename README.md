@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# Felipe App 🔥
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo minimalista de rastreamento de hábitos construído com React Native e Expo. O grande diferencial do Hábitos Fênix é a funcionalidade de "Renascimento" — as tarefas retornam ao estado de pendentes automaticamente à meia-noite, incentivando a consistência diária sem a necessidade de recriar listas.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+* **Renascimento Automático:** Verificação inteligente usando o ciclo de vida do app para resetar hábitos quando o dia vira.
+* **Categorização em Abas:** Organização clara entre hábitos Pessoais e Foco no Trabalho.
+* **100% Offline e Privado:** Sem necessidade de internet ou servidores. Todos os dados são salvos localmente no aparelho.
+* **Gestão Simples:** Adicione novos hábitos com um toque, marque como concluídos e segure (Long Press) para deletar.
 
+## Tecnologias Utilizadas
+
+* **[React Native](https://reactnative.dev/):** Framework principal.
+* **[Expo](https://expo.dev/):** Ambiente de desenvolvimento e compilação nas nuvens (EAS Build).
+* **[Expo Router](https://docs.expo.dev/router/introduction/):** Navegação moderna baseada em arquivos (`app/(tabs)`).
+* **[AsyncStorage](https://react-native-async-storage.github.io/async-storage/):** Armazenamento de dados local (banco de dados offline).
+* **[@expo/vector-icons](https://icons.expo.fyi/):** Ícones nativos da interface.
+
+## Como Rodar o Projeto (Desenvolvimento)
+
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+1. Baixe ou clone este projeto.
+2. Abra o terminal na pasta do projeto e instale as dependências:
    ```bash
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. Baixe o aplicativo Expo Go no seu celular (Android ou iOS) e escaneie o QR Code que aparecerá na tela do computador.
