@@ -1,4 +1,4 @@
-# Felipe App 🔥
+# Felipe App
 
 Um aplicativo minimalista de rastreamento de hábitos construído com React Native e Expo. O grande diferencial do Hábitos Fênix é a funcionalidade de "Renascimento" — as tarefas retornam ao estado de pendentes automaticamente à meia-noite, incentivando a consistência diária sem a necessidade de recriar listas.
 
