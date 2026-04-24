@@ -5,9 +5,8 @@ Um aplicativo minimalista de rastreamento de hábitos construído com React Nati
 ## Funcionalidades
 
 * **Renascimento Automático:** Verificação inteligente usando o ciclo de vida do app para resetar hábitos quando o dia vira.
-* **Categorização em Abas:** Organização clara entre hábitos Pessoais e Foco no Trabalho.
+* **Categorização em Abas:** Organização clara entre hábitos Pessoais e Lembretes.
 * **100% Offline e Privado:** Sem necessidade de internet ou servidores. Todos os dados são salvos localmente no aparelho.
-* **Gestão Simples:** Adicione novos hábitos com um toque, marque como concluídos e segure (Long Press) para deletar.
 
 ## Tecnologias Utilizadas
 
